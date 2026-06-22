@@ -6,11 +6,11 @@ body {
 }
 
 .hero {
-    background-image: url("images/salon3.jpg");
+    background-image: url("images/salon1.jpeg");
     background-size: cover;
-    background-position: upper;
+    background-position: center;
     color: white;
-    padding: 120px 20px;
+    padding: 220px 20px;
     position: relative;
 
 }
@@ -53,7 +53,7 @@ body {
 }
 
 .gallery img {
-    width: 350px;
+    width: 300px;
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
@@ -75,4 +75,21 @@ footer {
     color: white;
     padding: 15px;
     margin-top: 20px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.services {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.services-poster {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
