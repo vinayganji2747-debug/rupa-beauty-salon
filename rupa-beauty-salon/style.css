@@ -6,17 +6,16 @@ body {
 }
 
 .hero {
-    background-color: pink;
-    padding: 60px 20px;
+    background-image: url("images/salon3.jpg");
+    background-size: cover;
+    background-position: upper;
+    color: white;
+    padding: 120px 20px;
 }
 
-.hero h1 {
-    font-size: 50px;
-    margin-bottom: 10px;
-}
-
+.hero h1,
 .hero p {
-    font-size: 22px;
+    text-shadow: 2px 2px 5px black;
 }
 
 .hero button {
