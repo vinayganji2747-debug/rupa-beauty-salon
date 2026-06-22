@@ -11,6 +11,8 @@ body {
     background-position: upper;
     color: white;
     padding: 120px 20px;
+    position: relative;
+
 }
 
 .hero h1,
@@ -22,8 +24,16 @@ body {
     padding: 12px 25px;
     font-size: 16px;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
+    background: #fd8e06;
+    color: white;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background: #e6004c;
+    transform: scale(1.05);
 }
 
 .services,
