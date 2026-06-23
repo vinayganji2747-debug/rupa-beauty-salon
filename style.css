@@ -61,9 +61,16 @@ body {
     margin: 10px;
 }
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    text-align: center;
+}
+
+.gallery img {
+    width: 300px;
+    max-width: 90%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .contact a {
