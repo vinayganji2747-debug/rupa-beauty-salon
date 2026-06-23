@@ -203,15 +203,3 @@ footer {
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
-.video-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
-
-.video-grid video {
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
