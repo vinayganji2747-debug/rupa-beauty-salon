@@ -164,3 +164,42 @@ footer {
     padding: 40px 20px;
     background: #fff;
 }
+.results,
+.videos {
+    padding: 40px 20px;
+}
+
+.results img {
+    width: 300px;
+    max-width: 90%;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.videos video {
+    width: 300px;
+    max-width: 90%;
+    margin: 10px;
+    border-radius: 10px;
+}
+.transformations {
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.work-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.work-gallery img,
+.work-gallery video {
+    width: 320px;
+    max-width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
