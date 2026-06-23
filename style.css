@@ -16,10 +16,23 @@ body {
     color: white;
     padding: 220px 20px;
 }
+.hero-content {
+    display: inline-block;
+    background: rgba(0,0,0,0.5);
+    padding: 30px 50px;
+    border-radius: 20px;
+}
 
-.hero h1,
 .hero p {
-    text-shadow: 2px 2px 5px black;
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+}
+.hero h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.8);
 }
 
 .hero button {
