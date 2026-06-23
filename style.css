@@ -112,3 +112,24 @@ footer {
     z-index: 999;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+.contact a {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.contact a:first-child {
+    background: #25D366;
+}
+
+.contact a:last-child {
+    background: #E1306C;
+}
+
+.contact i {
+    margin-right: 8px;
+}
