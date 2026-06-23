@@ -21,6 +21,7 @@ body {
     background: rgba(0,0,0,0.5);
     padding: 30px 50px;
     border-radius: 20px;
+    backdrop-filter: blur(4px);
 }
 
 .hero p {
@@ -143,4 +144,17 @@ footer {
 
 .contact i {
     margin-right: 8px;
+}
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .hero-content {
+        padding: 20px;
+    }
 }
