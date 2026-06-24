@@ -135,6 +135,14 @@ footer {
     color: white;
     font-weight: bold;
 }
+.contact {
+    background: #fff;
+    padding: 40px 20px;
+}
+
+.contact a {
+    font-size: 18px;
+}
 
 .contact a:first-child {
     background: #25D366;
@@ -179,10 +187,11 @@ footer {
 }
 
 .videos video {
-    width: 300px;
-    max-width: 90%;
-    margin: 10px;
-    border-radius: 10px;
+    width: 350px;
+    max-width: 95%
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 .transformations {
     padding: 50px 20px;
