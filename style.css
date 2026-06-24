@@ -253,3 +253,8 @@ footer {
 .service-card:hover {
     transform: translateY(-5px);
 }
+.logo{
+    width:120px;
+    height:auto;
+    margin-bottom:15px;
+}
